@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pinboard.css">
+    <title>Pinboard</title>
+</head>
+
+<body>
+    <form id="pinboard">
+        <div id='text-input'>
+            <input name="key" type="text" placeholder='Key' required>
+            <input name="value" type="text" placeholder='Value' required>
+        </div>
+        <input class='block pin' type="submit" value='Pin'>
+
+        <div class="container">
+            <ul id='pins'>
+            </ul>
+            <input type="button" class="block clear" id="clearAll" value="Clear All"/>
+        </div>
+    </form>
+    <script src="pinboard.js"></script>
+</body>
+
+</html>
