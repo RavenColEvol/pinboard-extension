@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Pin Board",
     "description": "Basic Pinboard application helps you to store frequently values with easy to access one click copy !",
     "version": "0.0.0.1",
@@ -7,7 +7,7 @@
         "16": "icons/icon-16.png",
         "48": "icons/icon-48.png"
     },
-    "browser_action": {
+    "action": {
         "default_icon": "icons/icon-16.png",
         "default_title": "Pin Board",
         "default_popup": "pinboard.html"
