@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Pin Board",
-    "description": "Basic Pinboard application in beta phase",
-    "version": "0.1",
+    "description": "Basic Pinboard application helps you to store frequently values with easy to access one click copy !",
+    "version": "0.0.0.1",
     "icons": {
         "16": "icons/icon-16.png",
         "48": "icons/icon-48.png"
